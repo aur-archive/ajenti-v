@@ -1,6 +1,6 @@
 pkgbase = ajenti-v
 	pkgdesc = Plugin suite for Ajenti that adds web hosting capabilities.
-	pkgver = 0.2.50
+	pkgver = 0.2.52
 	pkgrel = 1
 	url = http://ajenti.org/
 	install = ajenti-v.install
@@ -25,6 +25,7 @@ pkgbase = ajenti-v
 	depends = courier-authlib>=0.64.0
 	provides = ajenti-v-core
 	source = git+https://github.com/Eugeny/ajenti-v.git
+	md5sums = SKIP
 
 pkgname = ajenti-v
 
